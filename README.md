@@ -1,0 +1,4 @@
+mydotfiles
+==========
+
+.zshrc Xresources etc .. 
