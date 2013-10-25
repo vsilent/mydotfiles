@@ -1,0 +1,105 @@
+xterm*geometry: 128x39+0+23
+xterm*faceSize: 13
+xterm*faceName: Consolas
+!xterm*faceName: Terminus
+!xterm*faceName:Inconsolata-dz\ for\ Powerline
+!xterm*faceName:Inconsolata\ for\ Powerline
+xterm.VT100.cursorColor: LightSlateGreen
+xterm*background:  #333333
+xterm*foreground:  #dddddd
+xterm*color0:	   #000000
+! fire red
+xterm*color1:	   #D22717
+! salad green
+!xterm*color2:		#80CE68
+xterm*color2:	   #80CE68
+!previous brown now a little bit orange
+!xterm*color3:		#E67109
+xterm*color3:	   #FC9503
+! base blue
+xterm*color4:	   #4169A1
+! strawberry symlinks
+xterm*color5:	   #963c59
+!Dark ocean changed to light ocean
+!(olive)
+!xterm*color6:		#418179
+!xterm*color6:		#599FA3
+xterm*color6:	   #82BEC0
+!
+xterm*color7:	   #bebebe
+xterm*color8:	   #666666
+! Dark pink
+xterm*color9:	   #cf6171
+!was lemon changed to middle green
+xterm*color10:	   #6FBF35
+!light yellow
+xterm*color11:	   #fff796
+! Beautefull heaven blue
+xterm*color12:	   #4186be
+!purple pink
+xterm*color13:	   #cf9ebe
+! cyan
+xterm*color14:	   #71bebe
+xterm*color15:	   #ffffff
+
+yeahconsole*xOffset:0
+yeahconsole*screenWidth:1920
+yeahconsole*handleWidth:1
+yeahconsole*toggleKey: none+Menu
+! misc term features
+yeahconsole*loginShell: false
+yeahconsole*savelines: 10000
+yeahconsole*toolBar: true
+yeahconsole*aniDelay: 1
+
+yeahconsole*perl-ext-common: default,digital-clock,remote-clipboard,matcher
+yeahconsole*urlLauncher: sensible-browser
+yeahconsole*matcher.button: 1
+yeahconsole*matcher.pattern.1: \\bwww\\.[\\w-]+\\.[\\w./?&@#-]*[\\w/-]
+! yeahconsole*
+
+yeahconsole*rightScrollBar: True
+yeahconsole*scrollBar: True
+yeahconsole*scrollBar_right: True
+yeahconsole*scrollBar_floating: True
+yeahconsole*scrollstyle: xterm
+yeahconsole*saveLines: 4000
+!yeahconsole*font: -*-terminus-medium-r-normal-*-14-*-*-*-*-*-iso10646-1
+!yeahconsole*boldFont: -*-terminus-bold-r-normal-*-14-*-*-*-*-*-iso10646-1
+yeahconsole*cursorColor: green
+yeahconsole*geometry: 145x35
+yeahconsole*consoleHeight: 45
+yeahconsole*scrollColor: green
+yeahconsole*cursorBlink: true
+
+
+!цвет фона
+yeahconsole*background:#333333
+!цвет текста
+yeahconsole*foreground:#dddddd
+
+!цвет курсора
+!yeahconsole*cursorColor:#E6E3E6
+!автоматический перезапуск при выходе
+!yeahconsole*restart:1
+!хоткей для разворачивания на весь экран
+!yeahconsole*keyFull:None+F11
+!хоткеи дли изменения размера (минус и плюс на NumLockе)
+yeahconsole*keySmaller:Control+KP_Subtract
+yeahconsole*keyBigger:Control+KP_Add
+!yeahconsole*faceName: Monaco:size=10
+!yeahconsole*boldFont: Monaco:style=Normal:size=10
+yeahconsole*faceName: Liberation Mono:size=12
+yeahconsole*boldFont: Liberation Mono:style=Bold:size=12
+!yeahconsole*faceName: Droid Mono:size=7
+!yeahconsole*boldFont: Droid Mono:style=Bold:size=7
+
+!yeahconsole*faceName: Terminus:size=11
+!yeahconsole*boldFont: Terminus:style=Bold:size=11
+
+!обрабатываем Esc по человечески
+!yeahconsole*metaSendsEscape: true
+
+
+URxvt*meta8:true
+URxvt*modifier: alt
